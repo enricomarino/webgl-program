@@ -1,0 +1,14 @@
+{
+  "name": "webgl-program",
+  "repo": "enricomarino/webgl-program",
+  "version": "0.1.0",
+  "description": "WebGL Program component",
+  "keywords": ["webgl", "program"],
+  "scripts": ["index.js"],
+  "dependencies": {
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT"
+}
