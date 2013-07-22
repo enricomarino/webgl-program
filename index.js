@@ -1,10 +1,3 @@
-/**
- * Component dependencies.
- */
-
-var Shader = require('webgl-shader');
-var Attribute = require('webgl-attribute');
-var Uniform = require('webgl-uniform');
 
 /**
  * Expose component
