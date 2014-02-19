@@ -6,6 +6,19 @@ WebGL Program component
 
     component install enricomarino/webgl-program
 
+## Example
+
+```js
+var canvas = document.querySelector('canvas');
+var gl = canvas.getContext('webgl');
+var Program = require('webgl-program');
+var Shader = require('webgl-shader');
+
+var vertex = new Shader(context, gl.VERTEX_SHADER, src);
+var fragment = new Shader(context, gl.VERTEX_SHADER, src);
+var program = new Program(context, vertex, fragment);
+```
+
 ## License
 
 (The MIT License)
