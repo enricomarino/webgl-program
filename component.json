@@ -6,6 +6,7 @@
   "keywords": ["webgl", "program"],
   "scripts": ["index.js"],
   "dependencies": {
+    "enricomarino/webgl-model": "*"
   },
   "development": {
     "component/assert": "*"
