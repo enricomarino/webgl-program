@@ -1,5 +1,11 @@
 
 /**
+ * Module dependencies.
+ */
+
+var Attribute = require('webgl-attribute');
+
+/**
  * Expose component
  */
 
